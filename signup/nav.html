@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!--inicio del menu-->
+    <!--md pa que salga la burger cuando la pantalla sea menor al 50% del tamaño de pc-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container-fluid">
+            <!--icono-->
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-flower2"></i>
+                <span class="text-warning">Geekmitive</span>
+            </a>
+            <!--boton del menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--elementos del menu colapsable-->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" href="#">Servicios</a>
+                        <ul class="dropdown-menu bg-secondary">
+                            <li>
+                                <a class="dropdown-item" href="">Renta</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="">Equipos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="">Networking</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr class="text-white-50">
+            </div>
+             
+        </div>
+
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

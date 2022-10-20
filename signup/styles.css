@@ -1,0 +1,21 @@
+body{
+    background: #ffffff;
+    background: linear-gradient(to right, #b1e1ff, #ffffff )
+}
+.bg{
+    background-image: url(./assets/Signinup.jpg);
+    background-position: center center;
+}
+h2{
+    color: #9c9efe;
+}
+#inputpass, #inputmail{
+   
+    border-radius: 25px 25px;
+    background-color: #b1e1ff;
+}
+#loginbtn {
+    border-radius: 25px 25px;
+    width: 150px;
+    margin-left: 27%;
+}
